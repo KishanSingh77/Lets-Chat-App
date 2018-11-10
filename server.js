@@ -6,5 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
+console.log(publicPath);
+
 app.listen(port , ()=>{ console.log(`       express running on  ${port}`);
 });
